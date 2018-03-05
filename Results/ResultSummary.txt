@@ -1,0 +1,81 @@
+[1] "---------RF Data Results with 8 Proteins---------"
+Sensitivity: 0.6287562 
+[1] "Only this protein:"
+                       [,1]
+TIMP1           0.000000000
+Myeloperoxidase 0.001293532
+OPN             0.004776119
+HGF             0.025771144
+CA199           0.029253731
+CA125           0.042786070
+CEA             0.052238806
+Prolactin       0.100497512
+maxOmega        0.212736318
+CancerStatus    1.000000000
+[1] "Remove this protein:"
+                     [,1]
+maxOmega        0.4228856
+Prolactin       0.5072637
+OPN             0.5585075
+HGF             0.5794030
+CEA             0.5989055
+CA199           0.6055721
+CA125           0.6112438
+TIMP1           0.6145274
+Myeloperoxidase 0.6208955
+CancerStatus    1.0000000
+          Protein Ranking.Score        Coefs
+1           TIMP1    0.06950232 7.233331e-06
+2 Myeloperoxidase    0.09062851 5.259595e-03
+3             OPN    0.17810000 1.504217e-05
+4             HGF    0.30576509 2.474092e-03
+5       Prolactin    0.47665079 3.512418e-05
+6           CA199    0.54033899 1.250627e-02
+7             CEA    1.15773064 2.312903e-04
+8           CA125    1.53014643 4.644417e-02
+9        maxOmega    9.62746088 1.499118e+00
+Sensitivity: 0.5139303 
+[1] "Only this protein:"
+                      [,1]
+TIMP1           0.00000000
+maxOmega        0.00000000
+Myeloperoxidase 0.00199005
+OPN             0.03462687
+HGF             0.03880597
+CA199           0.03960199
+CA125           0.04845771
+CEA             0.06009950
+Prolactin       0.14417910
+CancerStatus    1.00000000
+[1] "Remove this protein:"
+                     [,1]
+Prolactin       0.3556219
+OPN             0.4137313
+HGF             0.4572139
+CEA             0.4642786
+CA125           0.4842786
+CA199           0.4888557
+TIMP1           0.4905473
+Myeloperoxidase 0.5025871
+maxOmega        0.5139303
+CancerStatus    1.0000000
+          Protein Ranking.Score        Coefs
+1        maxOmega    0.00000000 0.000000e+00
+2           TIMP1    0.05794948 6.030989e-06
+3 Myeloperoxidase    0.08646861 5.018176e-03
+4             OPN    0.20402070 1.723140e-05
+5             HGF    0.30817114 2.493560e-03
+6       Prolactin    0.50469588 3.719081e-05
+7           CA199    0.58916800 1.363643e-02
+8             CEA    1.22983201 2.456946e-04
+9           CA125    1.60115383 4.859944e-02
+--- Remove Protein------
+                     [,1]
+CA199           0.6110448
+CEA             0.6055721
+CA125           0.6078607
+Prolactin       0.5301493
+HGF             0.5915423
+OPN             0.5940299
+TIMP1           0.6206965
+Myeloperoxidase 0.6250746
